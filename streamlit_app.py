@@ -2,7 +2,7 @@
 import streamlit as st
 import requests
 from datetime import datetime
-
+API_KEY = st.secrets["API_KEY"]
 # -----------------------------
 # Configuration de la page
 # -----------------------------
@@ -16,7 +16,7 @@ st.caption("Entrez une ville pour obtenir la météo actuelle (OpenWeather API).
 city = st.text_input("Nom de la ville", placeholder="Ex. : Montréal, Paris, Tokyo")
 
 # Vos infos API
-API_KEY = "YOUR_API_KEY"  # <-- Remplacez par votre clé OpenWeather
+API_KEY = "API_KEY"  # <-- Remplacez par votre clé OpenWeather
 BASE_URL = "https://api.openweathermap.org/data/2.5/weather"
 
 # Petite fonction utilitaire
