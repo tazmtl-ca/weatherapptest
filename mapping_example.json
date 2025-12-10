@@ -1,0 +1,46 @@
+{
+  "clear_day": {
+    "filename": "clear-day.json",
+    "url": ""
+  },
+  "clear_night": {
+    "filename": "clear-night.json",
+    "url": ""
+  },
+  "clouds": {
+    "filename": "clouds.json",
+    "url": ""
+  },
+  "rain": {
+    "filename": "rain.json",
+    "url": ""
+  },
+  "drizzle": {
+    "filename": "rain.json",
+    "url": ""
+  },
+  "thunderstorm": {
+    "filename": "thunder.json",
+    "url": ""
+  },
+  "snow": {
+    "filename": "snow.json",
+    "url": ""
+  },
+  "mist": {
+    "filename": "mist.json",
+    "url": ""
+  },
+  "fog": {
+    "filename": "mist.json",
+    "url": ""
+  },
+  "haze": {
+    "filename": "mist.json",
+    "url": ""
+  },
+  "smoke": {
+    "filename": "mist.json",
+    "url": ""
+  }
+}
